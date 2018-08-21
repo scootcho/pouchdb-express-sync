@@ -1,0 +1,10 @@
+.env
+
+node_modules/
+
+test_db/
+log.txt
+
+.data_replicator/*
+.data_users/*
+.datapouch__all_dbs__/*
