@@ -6,7 +6,7 @@ db.post({ "test": 123 }).then(function(result) {
   console.log(error);
 });
 
-var remoteDB = new PouchDB('http://localhost:3000/db/test_db')
+var remoteDB = new PouchDB('http://localhost:3000/db/myDb')
 // check http://localhost:3000/db/test_db to see if server db is updated per client db
 
 db.sync(remoteDB).on('complete', function () {
